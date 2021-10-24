@@ -1,0 +1,30 @@
+{
+  "name": "visitor-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vorachet/visitor-info.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vorachet/visitor-info/issues"
+  },
+  "homepage": "https://github.com/vorachet/visitor-info#readme",
+  "dependencies": {
+    "@supercharge/request-ip": "^1.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "geoip-lite": "^1.4.2",
+    "leaflet": "^1.7.1",
+    "nodemailer": "^6.7.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
